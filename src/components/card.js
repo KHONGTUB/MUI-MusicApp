@@ -78,7 +78,17 @@ export default function CustomCard({
         </CardContent>
         <CardActions>
           <FormControl fullWidth>
-            <Component defaultValue={2}>
+            <Component
+              onChange={(e) => {
+                if (e.target.value === "1") {
+                  setState(true);
+                  console.log(state);
+                } else {
+                  setState(false);
+                }
+              }}
+              defaultValue={2}
+            >
               <option value={1}>Low</option>
               <option value={2}>Normal</option>
               <option value={3}>High</option>

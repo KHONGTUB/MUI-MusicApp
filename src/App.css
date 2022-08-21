@@ -25,6 +25,31 @@
 }
 
 .dashboard-container {
+  width: 100vw;
   margin-left: 128px;
   margin-top: 64px;
+}
+
+.Cards{
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+}
+
+h2{
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+h4{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
+}
+
+.Notifications{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
 }
